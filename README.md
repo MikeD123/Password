@@ -1,3 +1,5 @@
+# Password Protect A Function In A Smart Contract
+
 ![Solidity Password Protection Smart Contract Function](http://www.uidownload.com/files/425/830/559/padlock-icon-rounded.jpg)
 
 This is a very basic example of a smart contract in Solidity that requires a password for execution.
