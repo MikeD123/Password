@@ -13,6 +13,7 @@ This is a very basic example of a smart contract in Solidity that requires a pas
 ## ⚠️ 🚨 **Bad use case (Don't ever do basically)** 🚨⚠️
 
 - Password protecting a contract that requires repeat usage.
+- Using some simple password can just be brute forced on Remix very easily. It'll only mine the transaction if the password is correct, so either get a damn good password, or add your own logic to avoid that occurring 
 
 ### *Example:* 
 
@@ -23,8 +24,10 @@ This is a very basic example of a smart contract in Solidity that requires a pas
 The input is public on the blockchain. If you've entered the password before, everyone know has access to that information. 
 
 ## **Note**
++ If you run this on remix, you'll see it'll fail unless you get the right password. Keep in mind if using this for something serious, put more work into it. This should be considered a "Get started" or help you conceptualize things in Solidity.
 
-I'm certainly aware of passwords level of security in comparison to public/private keys being used to access certain files, I feel like this is a good use case for people to play with if they wanted, or be creative with it. Totally welcome comments too!
+
++ I'm certainly aware of passwords level of security in comparison to public/private keys being used to access certain files, I feel like this is a good use case for people to play with if they wanted, or be creative with it. Totally welcome comments too!
 
 Thanks so much.
 
