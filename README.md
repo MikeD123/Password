@@ -13,7 +13,7 @@ This is a very basic example of a smart contract in Solidity that requires a pas
 ## ⚠️ 🚨 **Bad use case (Don't ever do basically)** 🚨⚠️
 
 - Password protecting a contract that requires repeat usage.
-- Using some simple password can just be brute forced on Remix very easily. It'll only mine the transaction if the password is correct, so either get a damn good password, or add your own logic to avoid that occurring 
+- Using some simple password can just be brute forced on Remix very easily. It'll only mine the transaction if the password is correct, so either get a damn good password, or add your own logic to avoid that occurring 😉
 
 ### *Example:* 
 
